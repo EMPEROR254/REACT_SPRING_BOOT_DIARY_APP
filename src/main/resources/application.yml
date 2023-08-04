@@ -1,0 +1,7 @@
+spring:
+diaryapp:
+  datasource:
+    jdbcUrl: jdbc:postgresql://localhost:5432/diarydb
+    username: emperor
+    password: password
+    pool-size: 30

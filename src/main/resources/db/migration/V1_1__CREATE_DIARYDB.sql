@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS diary_db(
+entry_id UUID PRIMARY KEY NOT NULL,
+created_at DATE NOT NULL,
+updated_at DATE NOT NULL,
+title VARCHAR(100) NOT NULL,
+entry_body TEXT NOT NULL
+);
